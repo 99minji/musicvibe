@@ -1,0 +1,67 @@
+@import "mixins";
+
+$font-styles: (
+  4xl: (
+    font-size: 3.6rem,
+    line-height: 4.2rem,
+  ),
+  3xl: (
+    font-size: 3.2rem,
+    line-height: 4.2rem,
+  ),
+  2xl: (
+    font-size: 2.4rem,
+    line-height: 3.2rem,
+  ),
+  xl: (
+    font-size: 2rem,
+    line-height: 3.2rem,
+  ),
+  2lg: (
+    font-size: 1.8rem,
+    line-height: 2.6rem,
+  ),
+  lg: (
+    font-size: 1.6rem,
+    line-height: 2.6rem,
+  ),
+  md: (
+    font-size: 1.4rem,
+    line-height: 2.4rem,
+  ),
+  sm: (
+    font-size: 1.3rem,
+    line-height: 2.2rem,
+  ),
+  xs: (
+    font-size: 1.2rem,
+    line-height: 1.8rem,
+  ),
+);
+
+/* 커스텀 스타일은 아래에 추가하여 사용해주세요. */
+/* ----------------------- start: flex custom --------------------- */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-align-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* ----------------------- end: flex custom ----------------------- */
