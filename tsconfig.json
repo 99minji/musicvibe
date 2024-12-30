@@ -15,6 +15,6 @@
       "@/*": ["*"]
     }
   },
-  "include": ["src", "global.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/global.d.ts"],
   "exclude": ["node_modules"]
 }
